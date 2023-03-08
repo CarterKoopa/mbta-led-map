@@ -1,0 +1,21 @@
+# List of all lines of the system to monitor.
+#
+# The key for each is the agency identifier for a line, while the value is the
+# Transitland OneStop ID for a line. This ensures the same lines get thier
+# stops downloaded in the download_stop_ids script and get updated in the main
+# script.
+#
+Red: r-drt2-redline
+Orange: r-drt2-orangeline
+Mattapan: r-drt2q-mattapantrolley
+Green-B: r-drt2-b
+Green-C: r-drt2-c
+Green-D: r-drt2-d
+Green-E: r-drt2-e
+Blue: r-drt3p-blueline
+741: r-drt2z-sl1
+742: r-drt2zm-sl2
+743: r-drt3p-sl3
+751: r-drt3p-sl3
+749: r-drt2y-sl5
+CR-Needham: r-drt2-needhamline

@@ -1,2 +1,10 @@
 mbta:
     api_key: your_key_here
+
+transit_land:
+    api_key: your_key_here
+
+gotify:
+    enabled: false
+    url: url
+    token: token
