@@ -48,7 +48,7 @@ LED_PLACEHOLDER = 0
 # having to modify the actual Python script. This file is encoded in YAML format
 # so the corresponding library is used to load it.
 lines = {}
-with open("lines_to_download.yml", "r", encoding="utf-8") as linefile:
+with open("lines.yml", "r", encoding="utf-8") as linefile:
     lines = yaml.safe_load(linefile)
 
 # An empty list to represent all stops is created.
