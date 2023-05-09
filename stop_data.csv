@@ -1,0 +1,458 @@
+stop_id,stop_name,led_id
+70061,Alewife,67
+70083,Andrew,0
+70084,Andrew,0
+70093,Ashmont,0
+70094,Ashmont,0
+70081,Broadway,0
+70082,Broadway,0
+70105,Braintree,0
+70073,Charles/MGH,95
+70074,Charles/MGH,95
+70069,Central,71
+70070,Central,71
+70063,Davis,68
+70064,Davis,68
+70077,Downtown Crossing,94
+70078,Downtown Crossing,94
+70089,Fields Corner,0
+70090,Fields Corner,0
+70067,Harvard,70
+70068,Harvard,70
+70085,JFK/UMass,0
+70086,JFK/UMass,0
+70095,JFK/UMass,0
+70096,JFK/UMass,0
+70071,Kendall/MIT,72
+70072,Kendall/MIT,72
+70097,North Quincy,0
+70098,North Quincy,0
+70075,Park Street,93
+70076,Park Street,93
+70065,Porter,69
+70066,Porter,69
+70103,Quincy Adams,0
+70104,Quincy Adams,0
+70101,Quincy Center,0
+70102,Quincy Center,0
+70087,Savin Hill,0
+70088,Savin Hill,0
+70091,Shawmut,0
+70092,Shawmut,0
+70079,South Station,116
+70080,South Station,116
+70099,Wollaston,0
+70100,Wollaston,0
+70278,Assembly,84
+70279,Assembly,84
+70014,Back Bay,7
+70015,Back Bay,7
+70028,Community College,97
+70029,Community College,97
+70018,Chinatown,0
+70019,Chinatown,0
+70020,Downtown Crossing,0
+70021,Downtown Crossing,0
+70001,Forest Hills,0
+70002,Green Street,1
+70003,Green Street,1
+70024,Haymarket,87
+70025,Haymarket,87
+70006,Jackson Square,3
+70007,Jackson Square,3
+70012,Massachusetts Avenue,6
+70013,Massachusetts Avenue,6
+70034,Malden Center,82
+70035,Malden Center,82
+70026,North Station,85
+70027,North Station,85
+70036,Oak Grove,81
+70008,Roxbury Crossing,4
+70009,Roxbury Crossing,4
+70010,Ruggles,5
+70011,Ruggles,5
+70004,Stony Brook,2
+70005,Stony Brook,2
+70022,State,90
+70023,State,90
+70030,Sullivan Square,96
+70031,Sullivan Square,96
+70016,Tufts Medical Center,0
+70017,Tufts Medical Center,0
+70032,Wellington,83
+70033,Wellington,83
+70261,Ashmont,0
+70265,Butler,0
+70266,Butler,0
+70273,Capen Street,0
+70274,Capen Street,0
+70263,Cedar Grove,0
+70264,Cedar Grove,0
+70269,Central Avenue,0
+70270,Central Avenue,0
+70275,Mattapan,0
+70276,Mattapan,0
+70267,Milton,0
+70268,Milton,0
+70271,Valley Road,0
+70272,Valley Road,0
+70126,Allston Street,52
+70127,Allston Street,52
+170140,Amory Street,57
+170141,Amory Street,57
+70156,Arlington,64
+70157,Arlington,64
+170136,Babcock Street,56
+170137,Babcock Street,56
+70509,Ball Square,74
+70510,Ball Square,74
+70148,Blandford Street,60
+70149,Blandford Street,60
+70158,Boylston,65
+70159,Boylston,65
+70134,Packard's Corner,55
+70135,Packard's Corner,55
+70144,Boston University Central,58
+70145,Boston University Central,58
+70146,Boston University East,59
+70147,Boston University East,59
+70112,Chestnut Hill Avenue,47
+70113,Chestnut Hill Avenue,47
+70114,Chiswick Road,48
+70115,Chiswick Road,48
+70154,Copley,63
+70155,Copley,63
+70513,East Somerville,77
+70514,East Somerville,77
+70505,Gilman Square,76
+70506,Gilman Square,76
+70201,Government Center,0
+70202,Government Center,0
+70128,Griggs Street,53
+70129,Griggs Street,53
+70203,Haymarket,88
+70204,Haymarket,88
+70130,Harvard Avenue,54
+70131,Harvard Avenue,54
+70152,Hynes Convention Center,62
+70153,Hynes Convention Center,62
+71150,Kenmore,61
+71151,Kenmore,61
+70106,Boston College,45
+70107,Boston College,45
+70501,Lechmere,79
+70502,Lechmere,79
+70511,Medford/Tufts,73
+70512,Medford/Tufts,73
+70507,Magoun Square,75
+70508,Magoun Square,75
+70205,North Station,86
+70206,North Station,86
+70196,Park Street,0
+70200,Park Street,0
+70110,South Street,46
+70111,South Street,46
+70207,Science Park/West End,80
+70208,Science Park/West End,80
+70116,Sutherland Road,49
+70117,Sutherland Road,49
+70120,Washington Street,50
+70121,Washington Street,50
+70124,Warren Street,51
+70125,Warren Street,51
+70156,Arlington,64
+70157,Arlington,64
+70509,Ball Square,74
+70510,Ball Square,74
+70229,Washington Square,36
+70230,Washington Square,36
+70225,Brandon Hall,38
+70226,Brandon Hall,38
+70158,Boylston,65
+70159,Boylston,65
+70237,Cleveland Circle,32
+70238,Cleveland Circle,32
+70154,Copley,63
+70155,Copley,63
+70219,Coolidge Corner,40
+70220,Coolidge Corner,40
+70233,Dean Road,34
+70234,Dean Road,34
+70235,Englewood Avenue,33
+70236,Englewood Avenue,33
+70513,East Somerville,77
+70514,East Somerville,77
+70227,Fairbanks Street,37
+70228,Fairbanks Street,37
+70505,Gilman Square,76
+70506,Gilman Square,76
+70201,Government Center,0
+70202,Government Center,0
+70203,Haymarket,88
+70204,Haymarket,88
+70213,Hawes Street,43
+70214,Hawes Street,43
+70152,Hynes Convention Center,62
+70153,Hynes Convention Center,62
+70150,Kenmore,61
+70151,Kenmore,61
+70215,Kent Street,42
+70216,Kent Street,42
+70501,Lechmere,79
+70502,Lechmere,79
+70511,Medford/Tufts,73
+70512,Medford/Tufts,73
+70507,Magoun Square,75
+70508,Magoun Square,75
+70205,North Station,86
+70206,North Station,86
+70197,Park Street,0
+70200,Park Street,0
+70211,Saint Mary's Street,44
+70212,Saint Mary's Street,44
+70207,Science Park/West End,80
+70208,Science Park/West End,80
+70217,Saint Paul Street,41
+70218,Saint Paul Street,41
+70223,Summit Avenue,39
+70224,Summit Avenue,39
+70231,Tappan Street,35
+70232,Tappan Street,35
+70156,Arlington,64
+70157,Arlington,64
+70509,Ball Square,74
+70510,Ball Square,74
+70176,Beaconsfield,27
+70177,Beaconsfield,27
+70158,Boylston,65
+70159,Boylston,65
+70178,Brookline Hills,28
+70179,Brookline Hills,28
+70180,Brookline Village,29
+70181,Brookline Village,29
+70172,Chestnut Hill,25
+70173,Chestnut Hill,25
+70154,Copley,63
+70155,Copley,63
+70166,Eliot,22
+70167,Eliot,22
+70513,East Somerville,77
+70514,East Somerville,77
+70186,Fenway,31
+70187,Fenway,31
+70505,Gilman Square,76
+70506,Gilman Square,76
+70201,Government Center,0
+70202,Government Center,0
+70203,Haymarket,88
+70204,Haymarket,88
+70152,Hynes Convention Center,62
+70153,Hynes Convention Center,62
+70150,Kenmore,61
+70151,Kenmore,61
+70501,Lechmere,79
+70502,Lechmere,79
+70182,Longwood,30
+70183,Longwood,30
+70511,Medford/Tufts,73
+70512,Medford/Tufts,73
+70507,Magoun Square,75
+70508,Magoun Square,75
+70168,Newton Highlands,23
+70169,Newton Highlands,23
+70170,Newton Centre,24
+70171,Newton Centre,24
+70205,North Station,86
+70206,North Station,86
+70198,Park Street,0
+70200,Park Street,0
+70160,Riverside,19
+70161,Riverside,19
+70174,Reservoir,26
+70175,Reservoir,26
+70207,Science Park/West End,80
+70208,Science Park/West End,80
+70503,Union Square,78
+70504,Union Square,78
+70164,Waban,21
+70165,Waban,21
+70162,Woodland,20
+70163,Woodland,20
+70156,Arlington,64
+70157,Arlington,64
+70509,Ball Square,74
+70510,Ball Square,74
+70257,Back of the Hill,17
+70258,Back of the Hill,17
+70158,Boylston,65
+70159,Boylston,65
+70249,Brigham Circle,13
+70250,Brigham Circle,13
+70154,Copley,63
+70155,Copley,63
+70513,East Somerville,77
+70514,East Somerville,77
+70251,Fenwood Road,14
+70252,Fenwood Road,14
+70505,Gilman Square,76
+70506,Gilman Square,76
+70201,Government Center,0
+70202,Government Center,0
+70203,Haymarket,88
+70204,Haymarket,88
+70260,Heath Street,18
+70501,Lechmere,79
+70502,Lechmere,79
+70247,Longwood Medical Area,12
+70248,Longwood Medical Area,12
+70511,Medford/Tufts,73
+70512,Medford/Tufts,73
+70245,Museum of Fine Arts,11
+70246,Museum of Fine Arts,11
+70507,Magoun Square,75
+70508,Magoun Square,75
+70253,Mission Park,15
+70254,Mission Park,15
+70205,North Station,86
+70206,North Station,86
+70243,Northeastern University,10
+70244,Northeastern University,10
+70199,Park Street,0
+70200,Park Street,0
+70239,Prudential,8
+70240,Prudential,8
+70255,Riverway,16
+70256,Riverway,16
+70207,Science Park/West End,80
+70208,Science Park/West End,80
+70241,Symphony,9
+70242,Symphony,9
+70047,Airport,102
+70048,Airport,102
+70043,Aquarium,89
+70044,Aquarium,89
+70055,Beachmont,106
+70056,Beachmont,106
+70038,Bowdoin,92
+70838,Bowdoin,92
+70039,Government Center,91
+70040,Government Center,91
+70045,Maverick,0
+70046,Maverick,0
+70051,Orient Heights,104
+70052,Orient Heights,104
+70057,Revere Beach,107
+70058,Revere Beach,107
+70053,Suffolk Downs,105
+70054,Suffolk Downs,105
+70041,State,0
+70042,State,0
+70049,Wood Island,103
+70050,Wood Island,103
+70059,Wonderland,119
+70060,Wonderland,119
+17091,Terminal A,108
+17093,Terminal B Stop 2 - Arrivals Level,110
+17094,Terminal C - Arrivals Level,111
+17095,Terminal E - Arrivals Level,112
+17096,Congress St @ World Trade Center Sta,114
+27092,Terminal B Stop 1 - Arrivals Level,109
+892,Summer St @ Atlantic Ave,0
+74614,Silver Line Way,113
+74624,Silver Line Way,113
+74612,Courthouse,115
+74616,Courthouse,115
+74611,South Station,117
+74617,South Station,117
+74613,World Trade Center,114
+74615,World Trade Center,114
+247,Northern Ave @ Harbor St,0
+30249,Northern Ave @ Tide St,0
+30250,23 Drydock Ave,0
+30251,27 Drydock Ave,0
+31255,Drydock Ave @ Design Center Place,0
+31256,Northern Ave opp Harbor St,0
+31257,Northern Ave @ Tide St,0
+31259,Drydock Ave @ Black Falcon Ave,0
+74614,Silver Line Way,113
+74624,Silver Line Way,113
+74612,Courthouse,115
+74616,Courthouse,115
+74611,South Station,117
+74617,South Station,117
+74613,World Trade Center,114
+74615,World Trade Center,114
+17096,Congress St @ World Trade Center Sta,0
+892,Summer St @ Atlantic Ave,0
+7096,Airport,102
+7097,Airport,102
+74632,Bellingham Square,99
+74633,Bellingham Square,99
+74634,Box District,100
+74635,Box District,100
+74630,Chelsea,98
+74631,Chelsea,98
+74614,Silver Line Way,113
+74624,Silver Line Way,113
+74612,Courthouse,115
+74616,Courthouse,115
+74636,Eastern Avenue,101
+74637,Eastern Avenue,101
+74611,South Station,117
+74617,South Station,117
+74613,World Trade Center,114
+74615,World Trade Center,114
+17096,Congress St @ World Trade Center Sta,114
+892,Summer St @ Atlantic Ave,0
+7096,Airport,102
+7097,Airport,102
+74632,Bellingham Square,99
+74633,Bellingham Square,99
+74634,Box District,100
+74635,Box District,100
+74630,Chelsea,98
+74631,Chelsea,98
+74614,Silver Line Way,113
+74624,Silver Line Way,113
+74612,Courthouse,115
+74616,Courthouse,115
+74636,Eastern Avenue,101
+74637,Eastern Avenue,101
+74611,South Station,117
+74617,South Station,117
+74613,World Trade Center,114
+74615,World Trade Center,114
+15095,Washington St @ Herald St,0
+15176,Washington St @ Worcester St,0
+1787,Washington St @ Worcester St,0
+1788,Washington St @ E Newton St,0
+19402,Washington St @ W Newton St,0
+3,Washington St @ Melnea Cass Blvd - Silver Line,0
+4,Washington St @ Lenox St,0
+49001,Temple Pl @ Washington St,0
+49002,Washington St @ Tufts Med Ctr,0
+49003,Washington St @ Herald St,0
+5,Washington St @ Massachusetts Ave,0
+5093,Washington St @ Union Pk,0
+5095,Washington St @ E Berkeley St,0
+5098,Washington St @ E Berkeley St,0
+5100,Washington St @ W Dedham St,0
+55,Washington St @ Massachusetts Ave,0
+60,Washington St @ Lenox St,0
+61,Washington St @ Melnea Cass Blvd,0
+6565,Washington St @ Tufts Med Ctr,0
+6567,Washington St @ Essex St,0
+8279,Tremont St @ Boylston Station,66
+64,Nubian,0
+NB-0064-S,Roslindale Village,0
+NB-0072-S,Bellevue,0
+NB-0076-S,Highland,0
+NB-0080-S,West Roxbury,0
+NB-0109-S,Hersey,0
+NB-0120-S,Needham Junction,0
+NB-0127-S,Needham Center,0
+NB-0137-S,Needham Heights,0
+NEC-2276,Back Bay,0
+NEC-2237,Forest Hills,-1
+NEC-2265,Ruggles,0
+NEC-2287,South Station,0
