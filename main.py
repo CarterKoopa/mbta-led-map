@@ -12,7 +12,7 @@ import digitalio
 
 import adafruit_tlc5947
 
-LED_BRIGHTNESS = 2048
+LED_BRIGHTNESS = 1000
 
 # load configuration YAML file
 # Loads MBTA API key & Gotify configuration
@@ -37,7 +37,7 @@ if gotify_enabled:
 # Declare the LED controller boards
 SCK = board.SCK
 MOSI = board.MOSI
-LATCH = digitalio.DigitalInOut(board.D5)
+LATCH = digitalio.DigitalInOut(board.D6)
 spi = busio.SPI(clock=SCK, MOSI=MOSI)
 tlc5947 = adafruit_tlc5947.TLC5947(spi, LATCH, auto_write=False, num_drivers=7)
 
@@ -56,16 +56,21 @@ while True:
     # Get API response from MBTA
     mbta_api_response = requests.get(
         mbta_url, headers=mbta_headers, timeout=MBTA_TIMEOUT
-    )
+    )#
     # Convert to JSON for easy indexing
     response_json = mbta_api_response.json()
 
     # Loop through each vehicle returned from the API
     for item in response_json["data"]:
+        # Load Route and Stop_id - only data from response that is 
+        try:
+            route = item["relationships"]["route"]["data"]["id"]
+            stop_id = item["relationships"]["stop"]["data"]["id"]
+        except TypeError:
+            continue
 
-        # Load Route and Stop_id - only data from response that is used
-        route = item["relationships"]["route"]["data"]["id"]
-        stop_id = item["relationships"]["stop"]["data"]["id"]
+        # print(f"Route: {route}")
+        # print(f"Stop: {stop_id}")
 
         # if route is not one of the ones being tracked that we have stop
         # data for, then skip to the next vehicle (this mainly skips bus lines
@@ -74,10 +79,19 @@ while True:
             continue
         
         # convert the stop_id into a led_id, and then turn that LED on
-        row = stop_to_led.loc[stop_to_led['stop_id'] == "70061"]
-        led_id = row.loc[0, "led_id"]
-        if led_id != 0 and led_id != -1:
-            tlc5947[led_id] = LED_BRIGHTNESS
+        stop_name = ""
+        try:
+            row = stop_to_led.loc[stop_to_led['stop_id'] == stop_id]
+            row = row.reset_index(drop=True)
+            # print(f"Row: {row}")
+            led_id = row.loc[0, "led_id"]
+            # print(f"Stop LED ID: {led_id}")
+            stop_name = row.loc[0, "stop_name"]
+            # print(f"Enabling {stop_name}")
+            if led_id != 0 and led_id != -1:
+                tlc5947[led_id] = LED_BRIGHTNESS
+        except KeyError:
+            print(f"Stop Error: {stop_name}, {row}")
     
     # Write the current set of LEDs to be on
     tlc5947.write()
